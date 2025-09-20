@@ -1,7 +1,7 @@
 // pages/index.tsx
 import { useRouter } from "next/router";
 import Button from "@/components/common/Button";
-import {PageRouteProps} from "@/interface";
+import { PageRouteProps } from "@/interface";
 
 export default function Home() {
   const router = useRouter(); // ← Required for the check
